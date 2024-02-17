@@ -1,0 +1,135 @@
+import React from 'react'
+import Slider from "../Slider";
+import Innerpage from "./Innerpage";
+import Navbar from './Navbar';
+import Fotter from "./Fotter";
+import useFetch from "./useFetch";
+
+function Kidsworld() {
+    const  Sliderimgsdata= [
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/53EE8CB1-E3B2-4C62-82F3-EC0C677F6639/0-16x9.jpg?width=2310&updatedTime=2023-04-21T16:41:59Z&dt=Web",
+        },
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/A58C083C-585A-4A6F-BB39-0272D41669E8/0-16x9.jpg?width=2310&updatedTime=2023-04-25T09:24:18Z&dt=Web",
+        },
+        { img: "https://image-resizer-cloud-api.akamaized.net/image/11975FAE-738D-4EBE-B4F2-48BB7A4EC758/0-16x9.jpg?width=2310&updatedTime=2023-04-21T16:29:55Z&dt=Web" },
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/5D3109F9-8D21-453D-A653-429770B0CEA2/0-16x9.jpg?width=2310&updatedTime=2022-07-22T03:27:01Z&dt=Web",
+        },
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/88E06F5B-9ED1-4DB6-A5FC-0E111A40E6B2/0-16x9.jpg?width=2310&updatedTime=2023-04-24T12:16:17Z&dt=Web",
+        },
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/BD67C4EA-80CC-4B0D-B6EB-9CC1E96379A1/0-16x9.jpg?width=2310&updatedTime=2023-07-06T15:26:14Z&dt=Web",
+        },
+        {
+          img: "https://image-resizer-cloud-api.akamaized.net/image/54D13CDB-47BD-4F5E-8CF3-DDCFE9437319/0-16x9.jpg?width=2310&updatedTime=2023-04-24T12:11:39Z&dt=Web",
+        },
+      ];
+      // const Kidsworlddata = [
+      //   {
+      //     Id: 1,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/482F3A41-2C53-40C2-8CB2-5A22F1ACAFC1/0-2x3.jpg?width=305&updatedTime=2023-07-27T17:59:33Z&dt=Web",
+      //     Moviename: "The Angry Birds Movie 2",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'The Angry Birds Movie 2' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/BD67C4EA-80CC-4B0D-B6EB-9CC1E96379A1/0-16x9.jpg?width=2310&updatedTime=2023-07-06T15:26:14Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/DXFN60x3vP4",
+      //   },
+      //   {
+      //     Id: 2,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/CC8D49CA-250E-4597-AE67-883FAFA4CB2D/0-2x3.jpg?width=305&updatedTime=2023-04-25T09:31:07Z&dt=Web",
+      //     Moviename: "Ghatotkachudu Master Of Magic",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Ghatotkachudu Master Of Magic' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/CC8D49CA-250E-4597-AE67-883FAFA4CB2D/0-16x9.jpg?width=2310&updatedTime=2023-04-25T09:31:07Z&dt=Web",
+      //    video:"https://www.youtube.com/embed/6aZX9kn4ZUk",
+      //   },
+      //   {
+      //     Id: 3,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/880D006B-E7E7-4A85-BE7E-4AC9AB64D019/0-2x3.jpg?width=305&updatedTime=2023-10-05T03:55:29Z&dt=Web",
+      //     Moviename: "The Magical Three Horses",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'The Magical Three Horses' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/880D006B-E7E7-4A85-BE7E-4AC9AB64D019/0-16x9.jpg?width=2310&updatedTime=2023-10-05T03:55:29Z&dt=Web",
+      //    video:"https://www.youtube.com/embed/IsCrd-hrmUc",
+      //   },
+      //   {
+      //     Id: 4,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/E1393AA6-177A-419F-80D6-0B40F698AC90/0-2x3.jpg?width=305&updatedTime=2023-06-05T09:05:36Z&dt=Web",
+      //     Moviename: "Christmas Thatha Trailer",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Christmas Thatha Trailer' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/5D3109F9-8D21-453D-A653-429770B0CEA2/0-16x9.jpg?width=2310&updatedTime=2022-07-22T03:27:01Z&dt=Web",
+      //    video:"https://www.youtube.com/embed/te8_PFW87S8",
+      //    },
+      //   {
+      //     Id: 5,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/53EE8CB1-E3B2-4C62-82F3-EC0C677F6639/0-2x3.jpg?width=305&updatedTime=2023-04-21T16:41:59Z&dt=Web",
+      //     Moviename: "Bala Bharatham",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Bala Bharatham' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/53EE8CB1-E3B2-4C62-82F3-EC0C677F6639/0-16x9.jpg?width=2310&updatedTime=2023-04-21T16:41:59Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/DXFN60x3vP4",
+      //   },
+      //   {
+      //     Id: 6,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/88E06F5B-9ED1-4DB6-A5FC-0E111A40E6B2/0-2x3.jpg?width=305&updatedTime=2023-04-24T12:16:17Z&dt=Web",
+      //     Moviename: "Prahlad",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Prahlad' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/88E06F5B-9ED1-4DB6-A5FC-0E111A40E6B2/0-16x9.jpg?width=2310&updatedTime=2023-04-24T12:16:17Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/6aZX9kn4ZUk",
+      //   },
+      //   {
+      //     Id: 7,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/11975FAE-738D-4EBE-B4F2-48BB7A4EC758/0-2x3.jpg?width=305&updatedTime=2023-04-21T16:29:55Z&dt=Web",
+      //     Moviename: "Bal Hanuman 2",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Bal Hanuman 2' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/11975FAE-738D-4EBE-B4F2-48BB7A4EC758/0-16x9.jpg?width=2310&updatedTime=2023-04-21T16:29:55Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/IsCrd-hrmUc",
+      //   },
+      //   {
+      //     Id: 8,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/D63864BB-29C7-46C2-98BE-9E679222E6D6/0-2x3.jpg?width=305&updatedTime=2023-04-25T09:15:48Z&dt=Web",
+      //     Moviename: "Gajasuras Penance",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Gajasuras Penance' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/54D13CDB-47BD-4F5E-8CF3-DDCFE9437319/0-16x9.jpg?width=2310&updatedTime=2023-04-24T12:11:39Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/te8_PFW87S8",
+      //   },
+      //   {
+      //     Id: 9,
+      //     img1: "https://image-resizer-cloud-api.akamaized.net/image/B35722BC-1EBF-4EE2-A4B0-09730948653C/0-16x9.jpg?width=300&updatedTime=2023-04-24T12:06:01Z",
+      //     Moviename: "Vishnu Promise",
+      //     relese: "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      //     description:
+      //       "In the film 'Vishnu Promise' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      //     img2: "https://image-resizer-cloud-api.akamaized.net/image/B35722BC-1EBF-4EE2-A4B0-09730948653C/0-16x9.jpg?width=2310&updatedTime=2023-04-24T12:06:01Z&dt=Web",
+      //     video:"https://www.youtube.com/embed/te8_PFW87S8",
+      //   },
+      // ];
+      const Kidsworlddata=useFetch("./Kidsdata.json")
+      return (
+     <div>
+       <Navbar/>
+       <Slider  Moviegurusliderdata={Sliderimgsdata} />
+   <br/><br/>
+      <div style={{color:"white", fontSize:"25px"}}>Kids Trinding</div><br/><br/>
+       <Innerpage  Moviegurudata={Kidsworlddata}/>
+       <Fotter/>
+    </div>
+  )
+}
+
+export default Kidsworld

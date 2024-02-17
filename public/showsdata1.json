@@ -1,0 +1,93 @@
+{ "data": [
+    {
+      "Id": 1,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/00BE93DA-3C15-4BB4-A8C9-27CF16DB1AEF/0-2x3.jpg?width=305&updatedTime=2023-10-30T12:15:35Z&dt=Web",
+      "Moviename": "Sarvam Shakthi Mayam",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Sarvam Shakthi Mayam' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/00BE93DA-3C15-4BB4-A8C9-27CF16DB1AEF/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:15:35Z&dt=Web",
+      "video": "https://www.youtube.com/embed/a8pWHqIG7zk"
+    },
+    {
+      "Id": 2,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/4CBBD95A-537B-4B95-BD6E-7CE5568B32BF/0-2x3.jpg?width=305&updatedTime=2023-11-02T07:59:31Z&dt=Web",
+      "Moviename": "Papam Pasivadu",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Papam Pasivadu' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/4CBBD95A-537B-4B95-BD6E-7CE5568B32BF/0-16x9.jpg?width=2310&updatedTime=2023-11-02T07:59:31Z&dt=Web",
+      "video": "https://www.youtube.com/embed/KXiAihlIh3I"
+    },
+    {
+      "Id": 3,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/CD29D287-7DDA-46DC-9CF9-A9FAF088A1F0/0-2x3.jpg?width=305&updatedTime=2023-11-03T12:26:21Z&dt=Web",
+      "Moviename": "Family Dhamaka",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Family Dhamaka' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/4A78CA85-3432-403B-9A33-4FE715082440/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:08:19Z&dt=Web",
+      "video": "https://www.youtube.com/embed/YfvAUJjWgXs"
+    },
+    {
+      "Id": 4,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/2B91E192-78A4-4E8B-9967-AC9D161DBD03/0-2x3.jpg?width=305&updatedTime=2023-09-24T12:05:02Z&dt=Web",
+      "Moviename": "Nenu Super Woman",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Nenu Super Woman' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/47E3281F-1E9C-43AB-B9BF-994A2E840788/0-16x9.jpg?width=2310&updatedTime=2023-09-24T12:05:03Z&dt=Web",
+      "video": "https://www.youtube.com/embed/2-UMJYb9kvg"
+    },
+    {
+      "Id": 5,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/BBF8D5B7-2B63-4604-9562-ED3B3BCF9465/0-2x3.jpg?width=305&updatedTime=2023-05-26T13:11:15Z&dt=Web",
+      "Moviename": "Telugu Indian Idol",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Telugu Indian Idol' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/92E6ED76-4BBB-43F9-A08A-586F2B40811A/0-16x9.jpg?width=2310&updatedTime=2023-10-05T04:00:34Z&dt=Web",
+      "video": "https://www.youtube.com/embed/kHvY04m40DA"
+    },
+    {
+      "Id": 6,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/953C6ACC-CD82-48CB-B7F5-CB8E9B1EE2C1/0-2x3.jpg?width=305&updatedTime=2023-04-25T02:07:55Z&dt=Web",
+      "Moviename": "Unstoppable",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Unstoppable' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/E51CB6A8-D3A9-474C-84E7-BDB6B2980239/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:06:28Z&dt=Web",
+      "video": "https://www.youtube.com/embed/a8pWHqIG7zk"
+    },
+    {
+      "Id": 7,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/BA371718-4FC7-4DAB-83D8-1D7ABB5038D7/0-2x3.jpg?width=305&updatedTime=2023-04-24T13:39:40Z&dt=Web",
+      "Moviename": "SARKAAR",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'SARKAAR' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/836A0A87-656C-46FE-BBD1-F12BA6088F68/0-16x9.jpg?width=2310&updatedTime=2023-11-02T08:16:23Z&dt=Web",
+      "video": "https://www.youtube.com/embed/KXiAihlIh3I"
+    },
+    {
+      "Id": 8,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/03BB17CC-18AB-4E24-B6F9-2EA3D546B5F5/0-2x3.jpg?width=305&updatedTime=2023-11-02T08:14:00Z&dt=Web",
+      "Moviename": "Comedy Stock Exchange",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Comedy Stock Exchange' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/998DEE7A-492F-4E20-9C5E-EA7B186E0A5F/0-16x9.jpg?width=2310&updatedTime=2023-07-17T11:45:48Z&dt=Web",
+      "video": "https://www.youtube.com/embed/YfvAUJjWgXs"
+    },
+    {
+      "Id": 9,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/11946C7F-4468-4C5A-ACFF-E1BD19D97B3E/0-2x3.jpg?width=305&updatedTime=2023-04-24T08:04:43Z&dt=Web",
+      "Moviename": "Chef mantra",
+      "relese": "2023 • 1 Season • Drama • Romance Humorous • Substances",
+      "description":
+        "In the film 'Chef mantra' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/A7C4A8B8-B112-4C74-8AFC-6128093F71FC/0-16x9.jpg?width=2310&updatedTime=2023-10-05T03:45:53Z&dt=Web",
+      "video": "https://www.youtube.com/embed/kHvY04m40DA"
+    }
+   
+  ]}

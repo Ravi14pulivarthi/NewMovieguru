@@ -1,0 +1,4 @@
+.mainimg:hover{
+transition: 0.5s;
+translate: 0px -15px;
+}

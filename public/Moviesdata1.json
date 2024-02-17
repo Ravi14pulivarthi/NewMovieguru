@@ -1,0 +1,104 @@
+{
+ "data" :    [
+    {
+      "Id": 1,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/D41FA14B-492F-416E-9EDE-ABBFCD970D0F/0-2x3.jpg?width=305&updatedTime=2023-10-30T12:10:48Z&dt=Web",
+     "Moviename": "Mama Maschindra",
+      "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+      "description":
+        "In the film 'Mama Maschindra' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/D41FA14B-492F-416E-9EDE-ABBFCD970D0F/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:10:48Z&dt=Web",
+      "video": "https://www.youtube.com/embed/URPjeqQgkUg",
+      "toggle":true
+    },
+    {
+      "Id": 2,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/D43B89A2-F781-4C1A-9A3E-2E3EBB9099CC/0-2x3.jpg?width=305&updatedTime=2023-11-03T12:30:48Z&dt=Web",
+      "Moviename": "The Great Indian Suicide",
+      "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+      "description":
+        "In the film 'The Great Indian Suicide' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/D43B89A2-F781-4C1A-9A3E-2E3EBB9099CC/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:17:15Z&dt=Web",
+      "video": "https://www.youtube.com/embed/Ad3KpruTlCk",
+      "toggle":true
+    },
+    {
+      "Id": 3,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/C02362E5-C250-4033-ADDD-B77A8C7D5F39/0-2x3.jpg?width=305&updatedTime=2023-10-30T12:18:40Z&dt=Web",
+      "Moviename": "Mr.Pregnant",
+     "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+      "description":
+        "In the film 'Mr.Pregnant' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/C02362E5-C250-4033-ADDD-B77A8C7D5F39/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:18:40Z&dt=Web",
+      "video": "https://www.youtube.com/embed/MDUVa03xbIs",
+      "toggle":true
+    },
+
+    {
+      "Id": 4,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/D54C647B-A5E6-4A21-8252-0116BD3DB32F/0-2x3.jpg?width=305&updatedTime=2023-10-05T17:42:52Z&dt=Web",
+      "Moviename": "Mayapetika",
+      "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+      "description":
+        "In the film 'Mayapetika' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/D54C647B-A5E6-4A21-8252-0116BD3DB32F/0-16x9.jpg?width=2310&updatedTime=2023-10-05T17:42:52Z&dt=Web",
+      "video": "https://www.youtube.com/embed/iNb-ycFhcOQ",
+      "toggle":true
+    },
+    {
+      "Id": 5,
+      "img1": "https://image-resizer-cloud-api.akamaized.net/image/841C0A2D-DFA5-4DDF-B45A-BA04C037444A/0-2x3.jpg?width=305&updatedTime=2023-11-01T14:32:49Z&dt=Web",
+      "Moviename": "Baby",
+      "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+      "description":
+        "In the film 'Baby' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+      "img2": "https://image-resizer-cloud-api.akamaized.net/image/841C0A2D-DFA5-4DDF-B45A-BA04C037444A/0-16x9.jpg?width=2310&updatedTime=2023-11-01T14:32:49Z&dt=Web",
+      "video": "https://www.youtube.com/embed/_npN4uwDMLk",
+      "toggle":true
+    },
+    {
+        "Id": 6,
+        "img1": "https://image-resizer-cloud-api.akamaized.net/image/D4020CD7-1377-461D-B4BD-D4AEA6D7D6FA/0-2x3.jpg?width=305&updatedTime=2023-10-30T12:33:40Z&dt=Web",
+        "Moviename": "Samajavaragamana",
+        "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+        "description":
+          "In the film 'Samajavaragamana' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+        "img2": "https://image-resizer-cloud-api.akamaized.net/image/D4020CD7-1377-461D-B4BD-D4AEA6D7D6FA/0-16x9.jpg?width=2310&updatedTime=2023-10-30T12:33:40Z&dt=Web",
+        "video": "https://www.youtube.com/embed/URPjeqQgkUg",
+        "toggle":true
+      },
+      {
+        "Id": 7,
+        "img1": "https://image-resizer-cloud-api.akamaized.net/image/6FA987D5-64A6-476F-A34F-8B7AC3821474/0-2x3.jpg?width=305&updatedTime=2023-11-01T04:31:47Z&dt=Web",
+        "Moviename": "Krishna Gadu Ante Oka Range",
+       " relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+        "description":
+          "In the film 'Krishna Gadu Ante Oka Range' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+       "img2": "https://image-resizer-cloud-api.akamaized.net/image/6FA987D5-64A6-476F-A34F-8B7AC3821474/0-16x9.jpg?width=2310&updatedTime=2023-11-01T04:31:47Z&dt=Web",
+        "video": "https://www.youtube.com/embed/Ad3KpruTlCk",
+        "toggle":true
+      },
+      {
+        "Id": 8,
+        "img1": "https://image-resizer-cloud-api.akamaized.net/image/4D3FD6FD-63E5-4C8A-96D8-1CA7D07CAB6D/0-2x3.jpg?width=305&updatedTime=2023-10-23T11:02:20Z&dt=Web",
+        "Moviename": "Surapanam",
+        "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+        "description":
+          "In the film 'Surapanam' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+        "img2": "https://image-resizer-cloud-api.akamaized.net/image/4D3FD6FD-63E5-4C8A-96D8-1CA7D07CAB6D/0-16x9.jpg?width=2310&updatedTime=2023-10-23T11:02:20Z&dt=Web",
+        "video": "https://www.youtube.com/embed/MDUVa03xbIs",
+        "toggle":true
+      },
+      {
+        "Id": 9,
+        "img1": "https://image-resizer-cloud-api.akamaized.net/image/7AED5CE3-45A3-40EF-92F5-64853AC950F9/0-2x3.jpg?width=305&updatedTime=2023-10-22T13:26:42Z&dt=Web",
+        "Moviename": "Case30",
+        "relese": "2023 • 2h 27m • Action • Comedy Adventurous • Humorous",
+        "description":
+          "In the film 'Case30' , Parasuram seeks revenge against his father and stepmother for his mother's death. After serving time in prison, he discovers his mother's  property is held by his uncle, whom he wins over and marries a girl his uncle considers a daughter. Parasuram instructs his assistant, Ramdaasu, to",
+        "img2": "https://image-resizer-cloud-api.akamaized.net/image/7AED5CE3-45A3-40EF-92F5-64853AC950F9/0-16x9.jpg?width=2310&updatedTime=2023-10-22T13:26:42Z&dt=Web",
+        "video": "https://www.youtube.com/embed/MDUVa03xbIs",
+        "toggle":true
+      }
+    
+  ]}
